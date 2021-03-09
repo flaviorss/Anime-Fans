@@ -1,0 +1,87 @@
+/* body {
+    font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    background-image: url(../imagens/img50.jpg);
+  }
+@media screen and (max-width: 375px){
+  body
+{
+  font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  background-image: url(../imagens/img15.jpg);
+  }
+} */
+@media (min-width: 300px){
+    body{
+    font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    background-image: url(../imagens/img15.jpg);
+    background-size: cover;
+    }
+}
+@media (min-width: 1200px){
+    body{
+    font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    background-image: url(../imagens/img50.jpg);
+    background-size: cover;
+    }
+}
+
+.inicio{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.80);
+  margin-top: 65px;
+  padding-top: 5px;
+  border-radius: 30px;
+}
+#buton{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin: px 0 ; */
+  padding: 16px;
+  background: #E50914;
+  line-height: 1em;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#email{
+  font-size: 18px;
+  font-weight: bold;
+  /* padding-bottom: 16px; */
+  padding: 12px;
+  /* background: rgb(105, 104, 104); */
+  line-height: 1em;
+  width: 100%;
+  text-align: left;
+}
+#senha{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin: 24px 0 12px; */
+  padding: 12px;
+  /* background: #E50914; */
+  line-height: 1em;
+  width: 100%;
+  text-align: left;
+}
+#nome{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin: 24px 0 12px; */
+  padding: 12px;
+  /* background: #E50914; */
+  line-height: 1em;
+  width: 100%;
+  text-align: left;
+}
+.form{
+  margin: 50px;
+}
+a{
+  text-decoration: none;
+}
+.nn{
+  font-weight: bold;
+  font-size: 16px;
+}
+.tt{
+    font-weight: bold;
+    font-size: 40px;
+}
